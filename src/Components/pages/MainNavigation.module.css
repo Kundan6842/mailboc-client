@@ -1,0 +1,49 @@
+.mainNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #a8a7a7;
+    padding: 15px 0 15px 0;
+    border-bottom: 5px solid #000000;
+    z-index: 2;
+  }
+  
+  .mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainNav li {
+    list-style: none;
+    margin: 0 40px 0 20px;
+  }
+  
+  .mainNav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .mainNav .welcome a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  
+  .mainNav .auth a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .mainNav a.active {
+    padding: 5px 20px 5px 20px;
+    box-shadow: 2px 2px 5px #ffbe32;
+    border-radius: 5px;
+    background-color: #7b7b7b;
+  }
